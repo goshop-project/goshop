@@ -1,13 +1,12 @@
 {
   "name": "@goshop/vsf-theme",
   "version": "0.0.1",
-  "private": true,
+  "license": "MIT",
   "scripts": {
     "build": "nuxt build -m",
     "build:analyze": "nuxt build -a -m",
     "dev": "nuxt",
     "generate": "nuxt generate",
-    "export": "vsf generate-template goshop",
     "lint": "eslint . --ext .ts,.vue",
     "lint:fix": "eslint . --ext .ts,.vue --fix",
     "precommit": "lint-staged",
@@ -20,8 +19,8 @@
     "update:update": "ncu -u"
   },
   "dependencies": {
-    "@storefront-ui/vue": "0.11.4",
     "@goshop/vsf": "0.0.1",
+    "@storefront-ui/vue": "0.11.4",
     "@vue-storefront/middleware": "~2.5.3",
     "@vue-storefront/nuxt": "~2.5.3",
     "@vue-storefront/nuxt-theme": "~2.5.3",
@@ -34,7 +33,6 @@
   },
   "devDependencies": {
     "@nuxt/types": "^2.15.8",
-    "@vue-storefront/cli": "^2.4.1",
     "@vue/test-utils": "^1.2.2",
     "babel-jest": "^27.3.1",
     "cypress": "^8.7.0",
