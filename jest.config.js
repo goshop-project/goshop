@@ -10,6 +10,7 @@ module.exports = {
     'vue',
     'json'
   ],
+  modulePathIgnorePatterns: ['tests/e2e/']
   transform: {
     "^.+\\.ts$": "ts-jest",
     '^.+\\.js$': 'babel-jest',
@@ -21,4 +22,4 @@ module.exports = {
     '<rootDir>/pages/**/*.vue'
   ],
   testEnvironment: 'jsdom'
-}
+};
