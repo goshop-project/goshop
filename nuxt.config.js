@@ -1,8 +1,10 @@
 
 import webpack from 'webpack';
-import theme from './themeConfig';
+import theme from './web/client/themeConfig';
 
 export default {
+  srcDir: 'web/client',
+
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
